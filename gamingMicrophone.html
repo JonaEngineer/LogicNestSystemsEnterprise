@@ -96,9 +96,9 @@
                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us
                   </button>
                   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                     <a class="dropdown-item" href="#">Mision</a>
-                     <a class="dropdown-item" href="#">Vision</a>
-                     <a class="dropdown-item" href="#">Who we are</a>
+                     <a class="dropdown-item" href="./mision/index.html">Mision</a>
+                     <a class="dropdown-item" href="./vision/index.html">Vision</a>
+                     <a class="dropdown-item" href="./aboutUs/index.html">Who we are</a>
                   </div>
                </div>
                <div class="main">
@@ -117,8 +117,7 @@
                   <div class="login_menu">
                      <ul>
                         <li><a href="#">
-                              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                              <span class="padding_10">Cart</span></a>
+                           <i class="fa fa-shopping-cart" id="carrito-contador" aria-hidden="true"><span class="padding_10">Carrito (0)</span></a></i>
                         </li>
                         <li><a href="./Login/login.html">
                               <i class="fa fa-user" aria-hidden="true"></i>
@@ -141,16 +140,17 @@
          <div class="carousel-inner">
             <div class="carousel-item active">
                <div class="container">
-                  <h1 class="fashion_taital">Microfonos</h1>
+                  <h1 class="fashion_taital">GAMING MICROPHONES</h1>
                   <div class="fashion_section_2">
                      <div class="row">
                         <div class="col-lg-4 col-sm-4">
                            <div class="box_main">
                               <h4 class="shirt_text">Blue Yeti USB</h4>
-                              <p class="price_text"> Price <span style="color: #262626;">$ 59</span></p>
+                              <p class="price_text"> Price<span style="color: #262626;">$ 59</span></p>
                               <div class="jewellery_img"><img src="images/Gaming microfono/Blue Yeti USB.png"></div>
                               <div class="btn_main">
-                                 <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                 <div class="buy_bt btn-agregar" data-price="59"
+                                 data-name="Blue Yeti USB" data-img="images/Gaming microfono/Blue Yeti USB.png"><a href="#">Buy Now</a></div>
                                  <div class="seemore_bt"><a href="#" onclick="toggleSpecs(event)">See More</a></div>
                               </div>
                               <div class="specs card" style="display: none;">
@@ -175,10 +175,11 @@
                         <div class="col-lg-4 col-sm-4">
                            <div class="box_main">
                               <h4 class="shirt_text">HyperX DuoCast</h4>
-                              <p class="price_text"> Price <span style="color: #262626;">$ 150</span></p>
+                              <p class="price_text">Price<span style="color: #262626;">$ 150</span></p>
                               <div class="jewellery_img"><img src="images/Gaming microfono//HyperX DuoCast 1.png"></div>
                               <div class="btn_main">
-                                 <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                 <div class="buy_bt btn-agregar" data-price="150"
+                                 data-name="HyperX DuoCast" data-img="images/Gaming microfono//HyperX DuoCast 1.png"><a href="#">Buy Now</a></div>
                                  <div class="seemore_bt"><a href="#" onclick="toggleSpecs(event)">See More</a></div>
                               </div>
                               <div class="specs card" style="display: none;">
@@ -206,11 +207,12 @@
                         <div class="col-lg-4 col-sm-4">
                            <div class="box_main">
                               <h4 class="shirt_text">HyperX QuadCast S RGB</h4>
-                              <p class="price_text"> Price <span style="color: #262626;">$ 159</span></p>
+                              <p class="price_text">Price<span style="color: #262626;">$ 159</span></p>
                               <div class="jewellery_img"><img src="images/Gaming microfono/HyperX QuadCast S RGB 1.png">
                               </div>
                               <div class="btn_main">
-                                 <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                 <div class="buy_bt btn-agregar" data-price="159"
+                                 data-name="HyperX QuadCast S RGB" data-img="images/Gaming microfono/HyperX QuadCast S RGB 1.png"><a href="#">Buy Now</a></div>
                                  <div class="seemore_bt"><a href="#" onclick="toggleSpecs(event)">See More</a></div>
                               </div>
                               <div class="specs card" style="display: none;">
@@ -243,10 +245,11 @@
                         <div class="col-lg-4 col-sm-4">
                            <div class="box_main">
                               <h4 class="shirt_text">HyperX QuadCast</h4>
-                              <p class="price_text"> Price <span style="color: #262626;">$ 139</span></p>
+                              <p class="price_text">Price<span style="color: #262626;">$ 139</span></p>
                               <div class="jewellery_img"><img src="images/Gaming microfono/HyperX QuadCast 1.png"></div>
                               <div class="btn_main">
-                                 <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                 <div class="buy_bt btn-agregar" data-price="139"
+                                 data-name="HyperX QuadCast" data-img="images/Gaming microfono/HyperX QuadCast 1.png"><a href="#">Buy Now</a></div>
                                  <div class="seemore_bt"><a href="#" onclick="toggleSpecs(event)">See More</a></div>
                               </div>
                               <div class="specs card" style="display: none;">
@@ -270,10 +273,11 @@
                         <div class="col-lg-4 col-sm-4">
                            <div class="box_main">
                               <h4 class="shirt_text">HyperX SoloCast</h4>
-                              <p class="price_text">Start Price <span style="color: #262626;">$ 59</span></p>
+                              <p class="price_text">Price<span style="color: #262626;">$ 59</span></p>
                               <div class="jewellery_img"><img src="images/Gaming microfono/HyperX SoloCast 1.png"></div>
                               <div class="btn_main">
-                                 <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                 <div class="buy_bt btn-agregar" data-price="59"
+                                 data-name="HyperX SoloCast" data-img="images/Gaming microfono/HyperX SoloCast 1.png"><a href="#">Buy Now</a></div>
                                  <div class="seemore_bt"><a href="#" onclick="toggleSpecs(event)">See More</a></div>
                               </div>
                               <div class="specs card" style="display: none;">
@@ -297,11 +301,12 @@
                         <div class="col-lg-4 col-sm-4">
                            <div class="box_main">
                               <h4 class="shirt_text">NZXT Cápsula AP-WUMIC-W1</h4>
-                              <p class="price_text">Start Price <span style="color: #262626;">$ 100</span></p>
+                              <p class="price_text">Price<span style="color: #262626;">$ 100</span></p>
                               <div class="jewellery_img"><img
                                     src="images/Gaming microfono/NZXT Cápsula AP-WUMIC-W1 1.png"></div>
                               <div class="btn_main">
-                                 <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                 <div class="buy_bt btn-agregar" data-price="100"
+                                 data-name="NZXT Cápsula AP-WUMIC-W1" data-img="images/Gaming microfono/NZXT Cápsula AP-WUMIC-W1 1.png"><a href="#">Buy Now</a></div>
                                  <div class="seemore_bt"><a href="#" onclick="toggleSpecs(event)">See More</a></div>
                               </div>
                               <div class="specs card" style="display: none;">
@@ -394,6 +399,8 @@
       }
 
    </script>
+   <script src="main.js"></script>
+
 </body>
 
 </html>

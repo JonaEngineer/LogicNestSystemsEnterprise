@@ -96,9 +96,9 @@
                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us
                   </button>
                   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                     <a class="dropdown-item" href="#">Mision</a>
-                     <a class="dropdown-item" href="#">Vision</a>
-                     <a class="dropdown-item" href="#">Who we are</a>
+                     <a class="dropdown-item" href="./mision/index.html">Mision</a>
+                     <a class="dropdown-item" href="./vision/index.html">Vision</a>
+                     <a class="dropdown-item" href="./aboutUs/index.html">Who we are</a>
                   </div>
                </div>
                <div class="main">
@@ -117,8 +117,7 @@
                   <div class="login_menu">
                      <ul>
                         <li><a href="#">
-                              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                              <span class="padding_10">Cart</span></a>
+                           <i class="fa fa-shopping-cart" id="carrito-contador" aria-hidden="true"><span class="padding_10">Carrito (0)</span></a></i>
                         </li>
                         <li><a href="./Login/login.html">
                               <i class="fa fa-user" aria-hidden="true"></i>
@@ -141,16 +140,17 @@
          <div class="carousel-inner">
             <div class="carousel-item active">
                <div class="container">
-                  <h1 class="fashion_taital">PS4</h1>
+                  <h1 class="fashion_taital">PLAYSTATION CONTROLS</h1>
                   <div class="fashion_section_2">
                      <div class="row">
                         <div class="col-lg-4 col-sm-4">
                            <div class="box_main">
                               <h4 class="shirt_text">DualShock 4</h4>
-                              <p class="price_text"> Price <span style="color: #262626;">$ 109</span></p>
+                              <p class="price_text">Price<span style="color: #262626;">$ 109</span></p>
                               <div class="jewellery_img"><img src="images/Gaming control/PS4/DualShock 4.jpg"></div>
                               <div class="btn_main">
-                                 <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                 <div class="buy_bt btn-agregar" data-price="109"
+                                 data-name="DualShock 4" data-img="images/Gaming control/PS4/DualShock 4.jpg"><a href="#">Buy Now</a></div>
                                  <div class="seemore_bt"><a href="#" onclick="toggleSpecs(event)">See More</a></div>
                               </div>
                               <div class="specs card" style="display: none;">
@@ -169,10 +169,11 @@
                         <div class="col-lg-4 col-sm-4">
                            <div class="box_main">
                               <h4 class="shirt_text">DualShock 4</h4>
-                              <p class="price_text"> Price <span style="color: #262626;">$ 37</span></p>
+                              <p class="price_text">Price<span style="color: #262626;">$ 37</span></p>
                               <div class="jewellery_img"><img src="images/Gaming control/PS4/DualShock 4.webp"></div>
                               <div class="btn_main">
-                                 <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                 <div class="buy_bt btn-agregar" data-price="37"
+                                 data-name="DualShock 4" data-img="images/Gaming control/PS4/DualShock 4.webp"><a href="#">Buy Now</a></div>
                                  <div class="seemore_bt"><a href="#" onclick="toggleSpecs(event)">See More</a></div>
                               </div>
                               <div class="specs card" style="display: none;">
@@ -192,11 +193,12 @@
                         <div class="col-lg-4 col-sm-4">
                            <div class="box_main">
                               <h4 class="shirt_text">YCCTEAM Wireless Game</h4>
-                              <p class="price_text"> Price <span style="color: #262626;">$ 26</span></p>
+                              <p class="price_text">Price<span style="color: #262626;">$ 26</span></p>
                               <div class="jewellery_img"><img
                                     src="images/Gaming control/PS4/YCCTEAM Wireless Game Controller.jpg"></div>
                               <div class="btn_main">
-                                 <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                 <div class="buy_bt btn-agregar" data-price="26"
+                                 data-name="YCCTEAM Wireless Game" data-img="images/Gaming control/PS4/YCCTEAM Wireless Game Controller.jpg"><a href="#">Buy Now</a></div>
                                  <div class="seemore_bt"><a href="#" onclick="toggleSpecs(event)">See More</a></div>
                               </div>
                               <div class="specs card" style="display: none;">
@@ -218,18 +220,19 @@
             </div>
             <div class="carousel-item">
                <div class="container">
-                  <h1 class="fashion_taital">PS5</h1>
+                  <h1 class="fashion_taital">PLAYSTATION CONTROLS</h1>
                   <div class="fashion_section_2">
                      <div class="row">
                         <div class="col-lg-4 col-sm-4">
                            <div class="box_main">
-                              <h4 class="shirt_text">PlayStation DualSense Wireless Controller - Sterling Silver </h4>
-                              <p class="price_text"> Price <span style="color: #262626;">$ 72</span></p>
+                              <h4 class="shirt_text">PlayStation DualSense Wireless Controller - Sterling Silver</h4>
+                              <p class="price_text">Price<span style="color: #262626;">$ 72</span></p>
                               <div class="jewellery_img"><img
                                     src="images/Gaming control/PS5/PlayStation DualSense Wireless Controller - Sterling Silver.jpg">
                               </div>
                               <div class="btn_main">
-                                 <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                 <div class="buy_bt btn-agregar" data-price="72"
+                                 data-name="PlayStation DualSense Wireless Controller - Sterling Silver" data-img="images/Gaming control/PS5/PlayStation DualSense Wireless Controller - Sterling Silver.jpg"><a href="#">Buy Now</a></div>
                                  <div class="seemore_bt"><a href="#" onclick="toggleSpecs(event)">See More</a></div>
                               </div>
                               <div class="specs card" style="display: none;">
@@ -247,13 +250,14 @@
                         </div>
                         <div class="col-lg-4 col-sm-4">
                            <div class="box_main">
-                              <h4 class="shirt_text">PlayStation DualSense Wireless Controller - Volcanic Red </h4>
+                              <h4 class="shirt_text">PlayStation DualSense Wireless Controller - Volcanic Red</h4>
                               <p class="price_text"> Price <span style="color: #262626;">$ 72</span></p>
                               <div class="jewellery_img"><img
                                     src="images/Gaming control/PS5/PlayStation DualSense Wireless Controller - Volcanic Red.jpg">
                               </div>
                               <div class="btn_main">
-                                 <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                 <div class="buy_bt btn-agregar" data-price="72"
+                                 data-name="PlayStation DualSense Wireless Controller - Volcanic Red" data-img="images/Gaming control/PS5/PlayStation DualSense Wireless Controller - Volcanic Red.jpg"><a href="#">Buy Now</a></div>
                                  <div class="seemore_bt"><a href="#" onclick="toggleSpecs(event)">See More</a></div>
                               </div>
                               <div class="specs card" style="display: none;">
@@ -272,12 +276,13 @@
                         <div class="col-lg-4 col-sm-4">
                            <div class="box_main">
                               <h4 class="shirt_text">PlayStation Portal Remote Player - PlayStation 5 controller</h4>
-                              <p class="price_text"> Price <span style="color: #262626;">$ 20</span></p>
+                              <p class="price_text">Price<span style="color: #262626;">$ 20</span></p>
                               <div class="jewellery_img"><img
                                     src="images/Gaming control/PS5/PlayStation Portal Remote Player - PlayStation 5.png">
                               </div>
                               <div class="btn_main">
-                                 <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                 <div class="buy_bt btn-agregar" data-price="20"
+                                 data-name="PlayStation Portal Remote Player - PlayStation 5 controller" data-img="images/Gaming control/PS5/PlayStation Portal Remote Player - PlayStation 5.png"><a href="#">Buy Now</a></div>
                                  <div class="seemore_bt"><a href="#" onclick="toggleSpecs(event)">See More</a></div>
                               </div>
                               <div class="specs card" style="display: none;">
@@ -366,6 +371,7 @@
       }
 
    </script>
+      <script src="main.js"></script>
 </body>
 
 </html>

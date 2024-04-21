@@ -96,9 +96,9 @@
                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us
                   </button>
                   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                     <a class="dropdown-item" href="#">Mision</a>
-                     <a class="dropdown-item" href="#">Vision</a>
-                     <a class="dropdown-item" href="#">Who we are</a>
+                     <a class="dropdown-item" href="./mision/index.html">Mision</a>
+                     <a class="dropdown-item" href="./vision/index.html">Vision</a>
+                     <a class="dropdown-item" href="./aboutUs/index.html">Who we are</a>
                   </div>
                </div>
                <div class="main">
@@ -117,8 +117,7 @@
                   <div class="login_menu">
                      <ul>
                         <li><a href="#">
-                              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                              <span class="padding_10">Cart</span></a>
+                           <i class="fa fa-shopping-cart" id="carrito-contador" aria-hidden="true"><span class="padding_10">Carrito (0)</span></a></i>
                         </li>
                         <li><a href="./Login/login.html">
                               <i class="fa fa-user" aria-hidden="true"></i>
@@ -141,16 +140,17 @@
          <div class="carousel-inner">
             <div class="carousel-item active">
                <div class="container">
-                  <h1 class="fashion_taital">Teclados Gamer </h1>
+                  <h1 class="fashion_taital">GAMING KEYBOARDS </h1>
                   <div class="fashion_section_2">
                      <div class="row">
                         <div class="col-lg-4 col-sm-4">
                            <div class="box_main">
                               <h4 class="shirt_text">HyperX Alloy Elite 2</h4>
-                              <p class="price_text">Price <span style="color: #262626;">$ 46</span></p>
+                              <p class="price_text">Price<span style="color: #262626;">$ 46</span></p>
                               <div class="tshirt_img"><img src="images/Gaming teclado/HyperX Alloy Elite 2.jpg"></div>
                               <div class="btn_main">
-                                 <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                 <div class="buy_bt btn-agregar" data-price="46"
+                                 data-name="HyperX Alloy Elite 2" data-img="images/Gaming teclado/HyperX Alloy Elite 2.jpg"><a href="#">Buy Now</a></div>
                                  <div class="seemore_bt"><a href="#" onclick="toggleSpecs(event)">See More</a></div>
                               </div>
                               <div class="specs card" style="display: none;">
@@ -174,10 +174,11 @@
                         <div class="col-lg-4 col-sm-4">
                            <div class="box_main">
                               <h4 class="shirt_text">Logitech G Pro</h4>
-                              <p class="price_text">Price <span style="color: #262626;">$ 79</span></p>
+                              <p class="price_text">Price<span style="color: #262626;">$ 79</span></p>
                               <div class="tshirt_img"><img src="images/Gaming teclado/Logitech G Pro.jpg"></div>
                               <div class="btn_main">
-                                 <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                 <div class="buy_bt btn-agregar" data-price="79"
+                                 data-name="Logitech G Pro" data-img="images/Gaming teclado/Logitech G Pro.jpg"><a href="#">Buy Now</a></div>
                                  <div class="seemore_bt"><a href="#" onclick="toggleSpecs(event)">See More</a></div>
                               </div>
                               <div class="specs card" style="display: none;">
@@ -200,11 +201,12 @@
                         <div class="col-lg-4 col-sm-4">
                            <div class="box_main">
                               <h4 class="shirt_text">Mini teclado inalámbrico</h4>
-                              <p class="price_text">Price <span style="color: #262626;">$ 38</span></p>
+                              <p class="price_text">Price<span style="color: #262626;">$ 38</span></p>
                               <div class="tshirt_img"><img src="images/Gaming teclado/Mini teclado inalámbrico.jpg">
                               </div>
                               <div class="btn_main">
-                                 <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                 <div class="buy_bt btn-agregar" data-price="38"
+                                 data-name="Mini teclado inalámbrico" data-img="images/Gaming teclado/Mini teclado inalámbrico.jpg"><a href="#">Buy Now</a></div>
                                  <div class="seemore_bt"><a href="#" onclick="toggleSpecs(event)">See More</a></div>
                               </div>
                               <div class="specs card" style="display: none;">
@@ -231,17 +233,18 @@
             </div>
             <div class="carousel-item">
                <div class="container">
-                  <h1 class="fashion_taital">Teclados Gamer</h1>
+                  <h1 class="fashion_taital">GAMING KEYBOARDS</h1>
                   <div class="fashion_section_2">
                      <div class="row">
                         <div class="col-lg-4 col-sm-4">
                            <div class="box_main">
                               <h4 class="shirt_text">Razer RZ03-04470200-R3U1 Ornata V3 X</h4>
-                              <p class="price_text">Price <span style="color: #262626;">$ 39</span></p>
+                              <p class="price_text">Price<span style="color: #262626;">$ 39</span></p>
                               <div class="tshirt_img"><img
                                     src="images/Gaming teclado/Razer RZ03-04470200-R3U1 Ornata V3 X.webp"></div>
                               <div class="btn_main">
-                                 <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                 <div class="buy_bt btn-agregar" data-price="39"
+                                 data-name="Razer RZ03-04470200-R3U1 Ornata V3 X" data-img="images/Gaming teclado/Razer RZ03-04470200-R3U1 Ornata V3 X.webp"><a href="#">Buy Now</a></div>
                                  <div class="seemore_bt"><a href="#" onclick="toggleSpecs(event)">See More</a></div>
                               </div>
                               <div class="specs card" style="display: none;">
@@ -264,11 +267,12 @@
                         <div class="col-lg-4 col-sm-4">
                            <div class="box_main">
                               <h4 class="shirt_text">HORI Tactical Assault Commander</h4>
-                              <p class="price_text">Price <span style="color: #262626;">$ 129</span></p>
+                              <p class="price_text">Price<span style="color: #262626;">$ 129</span></p>
                               <div class="tshirt_img"><img
                                     src="images/Gaming teclado/HORI Tactical Assault Commander.png"></div>
                               <div class="btn_main">
-                                 <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                 <div class="buy_bt btn-agregar" data-price="129"
+                                 data-name="HORI Tactical Assault Commander" data-img="images/Gaming teclado/HORI Tactical Assault Commander.png"><a href="#">Buy Now</a></div>
                                  <div class="seemore_bt"><a href="#" onclick="toggleSpecs(event)">See More</a></div>
                               </div>
                               <div class="specs card" style="display: none;">
@@ -288,12 +292,13 @@
                         <div class="col-lg-4 col-sm-4">
                            <div class="box_main">
                               <h4 class="shirt_text">Razer Orbweaver Chroma comander</h4>
-                              <p class="price_text">Price <span style="color: #262626;">$ 30</span></p>
+                              <p class="price_text">Price<span style="color: #262626;">$ 30</span></p>
                               <div class="tshirt_img"><img
                                     src="images/Gaming teclado/Razer Orbweaver Chroma - Teclado de gaming, Negro clásico.png">
                               </div>
                               <div class="btn_main">
-                                 <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                 <div class="buy_bt btn-agregar" data-price="30"
+                                 data-name="Razer Orbweaver Chroma comander" data-img="images/Gaming teclado/Razer Orbweaver Chroma - Teclado de gaming, Negro clásico.png"><a href="#">Buy Now</a></div>
                                  <div class="seemore_bt"><a href="#" onclick="toggleSpecs(event)">See More</a></div>
                               </div>
                               <div class="specs card" style="display: none;">
@@ -383,6 +388,7 @@
       }
 
    </script>
+   <script src="main.js"></script>
 </body>
 
 </html>

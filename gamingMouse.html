@@ -96,9 +96,9 @@
                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us
                   </button>
                   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                     <a class="dropdown-item" href="#">Mision</a>
-                     <a class="dropdown-item" href="#">Vision</a>
-                     <a class="dropdown-item" href="#">Who we are</a>
+                     <a class="dropdown-item" href="./mision/index.html">Mision</a>
+                     <a class="dropdown-item" href="./vision/index.html">Vision</a>
+                     <a class="dropdown-item" href="./aboutUs/index.html">Who we are</a>
                   </div>
                </div>
                <div class="main">
@@ -117,8 +117,7 @@
                   <div class="login_menu">
                      <ul>
                         <li><a href="#">
-                              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                              <span class="padding_10">Cart</span></a>
+                           <i class="fa fa-shopping-cart" id="carrito-contador" aria-hidden="true"><span class="padding_10">Carrito (0)</span></a></i>
                         </li>
                         <li><a href="./Login/login.html">
                               <i class="fa fa-user" aria-hidden="true"></i>
@@ -141,17 +140,18 @@
          <div class="carousel-inner">
             <div class="carousel-item active">
                <div class="container">
-                  <h1 class="fashion_taital">Mouse Gamer</h1>
+                  <h1 class="fashion_taital">GAMING MOUSE</h1>
                   <div class="fashion_section_2">
                      <div class="row">
                         <div class="col-lg-4 col-sm-4">
                            <div class="box_main">
                               <h4 class="shirt_text">G703 Lightspeed con sensor Hero</h4>
-                              <p class="price_text"> Price <span style="color: #262626;">$ 71</span></p>
+                              <p class="price_text">Price<span style="color: #262626;">$ 71</span></p>
                               <div class="electronic_img"><img
                                     src="images/Gaming Mouse/G703 Lightspeed con sensor Hero 1.png"></div>
                               <div class="btn_main">
-                                 <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                 <div class="buy_bt btn-agregar" data-price="71"
+                                 data-name="G703 Lightspeed con sensor Hero" data-img="images/Gaming Mouse/G703 Lightspeed con sensor Hero 1.png"><a href="#">Buy Now</a></div>
                                  <div class="seemore_bt"><a href="#" onclick="toggleSpecs(event)">See More</a></div>
                               </div>
                               <div class="specs card" style="display: none;">
@@ -176,7 +176,8 @@
                               <div class="electronic_img"><img src="images/Gaming Mouse/HyperX Pulsefire Haste 1.png">
                               </div>
                               <div class="btn_main">
-                                 <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                 <div class="buy_bt btn-agregar" data-price="55"
+                                 data-name="HyperX Pulsefire Haste gaming mouse" data-img="images/Gaming Mouse/HyperX Pulsefire Haste 1.png"><a href="#">Buy Now</a></div>
                                  <div class="seemore_bt"><a href="#" onclick="toggleSpecs(event)">See More</a></div>
                               </div>
                               <div class="specs card" style="display: none;">
@@ -202,7 +203,8 @@
                               <div class="electronic_img"><img src="images/Gaming Mouse/Logitech G 305 LIGHTSPEED 1.png">
                               </div>
                               <div class="btn_main">
-                                 <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                 <div class="buy_bt btn-agregar" data-price="87"
+                                 data-name="Logitech G 305 LIGHTSPEED mouse" data-img="images/Gaming Mouse/Logitech G 305 LIGHTSPEED 1.png"><a href="#">Buy Now</a></div>
                                  <div class="seemore_bt"><a href="#" onclick="toggleSpecs(event)">See More</a></div>
                               </div>
                               <div class="specs card" style="display: none;">
@@ -237,7 +239,8 @@
                               <div class="electronic_img"><img src="images/Gaming Mouse/Logitech G 502 Lightspeed 1.png">
                               </div>
                               <div class="btn_main">
-                                 <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                 <div class="buy_bt btn-agregar" data-price="91"
+                                 data-name="Logitech G 502 Lightspeed" data-img="images/Gaming Mouse/Logitech G 502 Lightspeed 1.png"><a href="#">Buy Now</a></div>
                                  <div class="seemore_bt"><a href="#" onclick="toggleSpecs(event)">See More</a></div>
                               </div>
                               <div class="specs card" style="display: none;">
@@ -259,10 +262,11 @@
                         <div class="col-lg-4 col-sm-4">
                            <div class="box_main">
                               <h4 class="shirt_text">Razer Basilisk V3</h4>
-                              <p class="price_text"> Price <span style="color: #262626;">$ 59.99</span></p>
+                              <p class="price_text">Price<span style="color: #262626;">$ 60</span></p>
                               <div class="electronic_img"><img src="images/Gaming Mouse/Razer Basilisk V3 1.png"></div>
                               <div class="btn_main">
-                                 <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                 <div class="buy_bt btn-agregar" data-price="60"
+                                 data-name="Razer Basilisk V3" data-img="images/Gaming Mouse/Razer Basilisk V3 1.png"><a href="#">Buy Now</a></div>
                                  <div class="seemore_bt"><a href="#" onclick="toggleSpecs(event)">See More</a></div>
                               </div>
                               <div class="specs card" style="display: none;">
@@ -285,11 +289,12 @@
                         <div class="col-lg-4 col-sm-4">
                            <div class="box_main">
                               <h4 class="shirt_text">Razer Viper V2 Pro</h4>
-                              <p class="price_text"> Price <span style="color: #262626;">$ 100</span></p>
+                              <p class="price_text">Price<span style="color: #262626;">$ 100</span></p>
                               <div class="electronic_img"><img
                                     src="images/Gaming Mouse/Razer Viper V2 Pro HyperSpeed Mouse 1.png"></div>
                               <div class="btn_main">
-                                 <div class="buy_bt"><a href="#">Buy Now</a></div>
+                                 <div class="buy_bt btn-agregar" data-price="100"
+                                 data-name="Razer Viper V2 Pro" data-img="images/Gaming Mouse/Razer Viper V2 Pro HyperSpeed Mouse 1.png"><a href="#">Buy Now</a></div>
                                  <div class="seemore_bt"><a href="#" onclick="toggleSpecs(event)">See More</a></div>
                               </div>
                               <div class="specs card" style="display: none;">
@@ -379,6 +384,7 @@
       }
 
    </script>
+   <script src="main.js"></script>
 </body>
 
 </html>
